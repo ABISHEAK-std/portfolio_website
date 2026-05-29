@@ -11,7 +11,7 @@ export function Hero() {
             className="font-display font-extrabold tracking-tighter text-foreground/10 leading-none"
             style={{ fontSize: "clamp(5rem, 18vw, 18rem)" }}
           >
-            AI ENGINEER
+            ABISHEAK
           </h1>
         </div>
 
