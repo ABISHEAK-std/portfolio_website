@@ -70,7 +70,7 @@ export function Hero() {
 
           {/* Right stat cards */}
           <div className="order-3 flex flex-col gap-3 lg:items-end animate-fade-up">
-            <StatCard label1="Projects" label2="Built" value="10+" />
+            <StatCard label1="Projects" label2="Built" value="15+" />
             <StatCard label1="Open Source Contributions" label2="Merged" value="2+" sub="" />
           </div>
         </div>
