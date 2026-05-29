@@ -8,7 +8,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 // Custom SSR entry at src/server.ts (error wrapper). Cloudflare builds from this via the plugin below.
 export default defineConfig({
   plugins: [
-    cloudflare({ viteEnvironment: { name: "ssr" } }),
+    // Only use Cloudflare plugin when NOT deploying to Vercel
+    ...(process.env.VERCEL ? [] : [cloudflare({ viteEnvironment: { name: "ssr" } })]),
     tsconfigPaths(),
     tailwindcss(),
     tanstackStart({
