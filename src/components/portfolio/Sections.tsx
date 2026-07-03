@@ -102,7 +102,7 @@ export function Skills() {
 const PROJECTS = [
   {
     title: "FineTuned TinyLlama for Structured Output",
-    repoUrl: "https://github.com/ABISHEAK-std/TinyLlama-structured-output-finetuned-using-Lora",
+    repoUrl: "https://github.com/S-ABISHEAK/TinyLlama-structured-output-finetuned-using-Lora",
     accent: "oklch(0.6 0.22 265)",
     stack: ["Python", "HuggingFace", "PEFT (LoRA/QLoRA)", "TRL", "BitsAndBytes", "PyTorch", "TinyLlama"],
     bullets: [
@@ -124,7 +124,7 @@ const PROJECTS = [
   },
   {
     title: "AAC Tamil Next-Word Prediction",
-    repoUrl: "https://github.com/ABISHEAK-std/AAC-TAMIL-NEXT-WORD-PREDICTION",
+    repoUrl: "https://github.com/S-ABISHEAK/AAC-TAMIL-NEXT-WORD-PREDICTION",
     accent: "oklch(0.7 0.18 50)",
     stack: ["Python", "TensorFlow", "Bi-GRU", "LSTM", "BiLSTM", "IndicNLP", "Streamlit"],
     bullets: [
@@ -135,7 +135,7 @@ const PROJECTS = [
   },
   {
    title: "SupportOrchestrator : LLM Fine-Tuned on Customer Support Tickets",
-repoUrl: "https://github.com/ABISHEAK-std/SupportOrchestrator-AI-LLM-FINETUNED-ON-CUSTOMER-TICKETS",
+repoUrl: "https://github.com/S-ABISHEAK/SupportOrchestrator-AI-LLM-FINETUNED-ON-CUSTOMER-TICKETS",
 accent: "oklch(0.6 0.22 340)",
 stack: [
   "Python",
@@ -349,7 +349,7 @@ export function Contact() {
           </span>
         </div>
         <div className="mt-8 flex justify-center gap-3">
-          <a href="https://github.com/ABISHEAK-std" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card grid place-items-center shadow-sm hover:-translate-y-0.5 transition-transform">
+          <a href="https://github.com/S-ABISHEAK" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card grid place-items-center shadow-sm hover:-translate-y-0.5 transition-transform">
             <Github className="w-5 h-5" />
           </a>
           <a href="https://www.linkedin.com/in/s-abisheak-cit/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-card grid place-items-center shadow-sm hover:-translate-y-0.5 transition-transform">
